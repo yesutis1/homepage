@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/game.css">
+    <script src="/home/js/game.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style>
+        body{
+            background-image: url(/home/img/background7.jpg); 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1><a href="/home/home.html">Homepage</a></h1>
+        </div>
+    </header>
+
+    <nav>
+        <div>
+            <ul>
+                <li><a href="/home/home.html">Home</a></li>
+                <li><a href="/home/calculator.html">Calculator</a></li>
+                <li><a href="#" class="active">Game</a></li>
+                <li id="menu">
+                    <a href="/home//menu.html">Menu</a>
+                    <ul>
+                        <li><a href="/home/calculator.html">계산기</a></li>
+                        <li><a href="/home/game.html">게임</a></li>
+                        <li><a href="/home/analog/analogtime.html">아날로드 시계</a></li>
+                        <li><a href="/home/digitime/digitime.html">디지털 시계</a></li>
+                    </ul>
+                </li>
+            </ul>       
+        </div>
+    </nav>
+    <span class="clearfix"></span>
+
+    <section>
+        <ul>
+            <li>
+                <p>Games</p>
+                <ul>
+                    <li>
+                        <a onclick="game1()">카드 맞추기 게임</a>
+                        <div id="game1">
+                            <a href="http://kwak9303.dothome.co.kr/js_card/">게임하러 가기</a>
+                            <div id=""></div>
+                        </div>
+                    </li>
+                    <li>
+                        <a onclick="game2()">Maze Game</a>
+                        <div id="game2">
+                            <a href="/home/mygame/mygame.html">게임 페이지로 이동</a>
+                            <div id="maze"></div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <!-- <aside>
+        aside
+    </aside> -->
+
+    <footer>
+        <div>
+            <div>Choi Ju Young</div>
+            <div>
+                <p>e-mail : yesutis1@naver.com</p>
+            </div>
+            <a href="/home/home.html">hompage : yesutis1.dothome.co.kr/home/home.html</a>
+        </div>
+    </footer>
+
+</body>
+</html>

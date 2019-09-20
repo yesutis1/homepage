@@ -1,0 +1,37 @@
+section{
+    ul{
+        li{
+            p{
+                font-size: 30px; color: black;
+            }
+            ul{
+                padding: 20px;
+                li{
+                    a{
+                        font-size: 20px; color: black;
+                        text-decoration: none; cursor: pointer;
+                    }
+                    div{
+                        padding-top: 20px;
+                        div,a{
+                            display: none;
+                        }
+                        a{
+                            font-size: 13px;
+                            color: blue; font-size: 20px;
+                        }
+                        div{
+                            border: 2px solid black; padding: 0;
+                            width: 1100px; height: 600px;
+                        }
+                    }                 
+                    div.game_layer{
+                        div,a{
+                            display: block;
+                        }
+                    } 
+                }
+            }
+        }
+    }
+}

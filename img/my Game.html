@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)file:///C:/Users/YONSAI/Desktop/UI/home/maze/maze.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my Game</title>
+    <style>
+    body {
+  background-color: #444;
+  text-align: center;
+  position: relative;
+}
+
+body a {
+  padding: 20px;
+  color: #777;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+body a:hover {
+  color: red;
+}
+
+body canvas {
+  border: 2px solid black;
+  background-color: #555;
+}
+
+body div {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  background-color: #666;
+  width: 300px;
+  border: 2px solid #fff;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+body div button {
+  border: 2px solid #555;
+  padding: 20px;
+  background-color: #999;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+body div.startgame {
+  display: none;
+}
+    </style>
+</head>
+<body><canvas width="1000" height="700"></canvas>
+    <br><a href="file:///C:/home/game.html">Back</a>
+    <script src="file:///C:/Users/YONSAI/Desktop/UI/home/maze/maze.js"></script>
+    <div id="startbtn" class="startgame">
+        <button type="button" onclick="game()">시작하기</button>
+    </div>
+
+</body></html>

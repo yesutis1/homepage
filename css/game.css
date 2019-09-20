@@ -1,0 +1,41 @@
+section ul li p {
+  font-size: 30px;
+  color: black;
+}
+
+section ul li ul {
+  padding: 20px;
+}
+
+section ul li ul li a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+section ul li ul li div {
+  padding-top: 20px;
+}
+
+section ul li ul li div div, section ul li ul li div a {
+  display: none;
+}
+
+section ul li ul li div a {
+  font-size: 13px;
+  color: blue;
+  font-size: 20px;
+}
+
+section ul li ul li div div {
+  border: 2px solid black;
+  padding: 0;
+  width: 1100px;
+  height: 600px;
+}
+
+section ul li ul li div.game_layer div, section ul li ul li div.game_layer a {
+  display: block;
+}
+/*# sourceMappingURL=game.css.map */

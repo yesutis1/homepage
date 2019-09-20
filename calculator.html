@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/calc.css">
+    <style>
+        body{
+            background-image: url(/home/img/background5.jpg); 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="/home/home.html"><h1>Homepage</h1></a>
+        </div>
+    </header>
+
+    <nav>
+        <div>
+            <ul>
+                <li><a href="/home/home.html">Home</a></li>
+                <li><a href="#" class="active">Calculator</a></li>
+                <li><a href="/home/game.html">Game</a></li>
+                <li id="menu">
+                    <a href="/home//menu.html">Menu</a>
+                    <ul>
+                        <li><a href="/home/calculator.html">계산기</a></li>
+                        <li><a href="/home/game.html">게임</a></li>
+                        <li><a href="/home/analog/analogtime.html">아날로드 시계</a></li>
+                        <li><a href="/home/digitime/digitime.html">디지털 시계</a></li>
+                    </ul>
+                </li>
+            </ul>       
+        </div>
+    </nav>
+    <span class="clearfix"></span>
+
+    <section>
+        <h1>계산기(calculator)</h1>
+        <div>
+            <ul><h3>사칙연사 계산기 사용법</h3>
+                <li>숫자와 기호를 입력한다.</li>
+                <li>계산 끝에 "=" 을 눌러 계산 결과를 확인한다.</li>
+                <li>AC(All Clear)를 눌러서 계산 내역을 지워준다.</li>
+            </ul>
+            <div class="buttonbs">
+                <div class="output">
+                    <span id="demo"></span>
+                </div>
+                <button type="button" onclick="calc(this)">(</button>
+                <button type="button" onclick="calc(this)">)</button>
+                <button type="button" onclick="deleteText()">←</button>
+                <button type="button" onclick="calc(this)">/</button>
+                <button type="button" onclick="calc(this)">7</button>
+                <button type="button" onclick="calc(this)">8</button>
+                <button type="button" onclick="calc(this)">9</button>
+                <button type="button" onclick="calc(this)">*</button>
+                <button type="button" onclick="calc(this)">4</button>
+                <button type="button" onclick="calc(this)">5</button>
+                <button type="button" onclick="calc(this)">6</button>  
+                <button type="button" onclick="calc(this)">-</button>
+                <button type="button" onclick="calc(this)">1</button>
+                <button type="button" onclick="calc(this)">2</button>
+                <button type="button" onclick="calc(this)">3</button>
+                <button type="button" onclick="calc(this)">+</button>
+                <button type="button" onclick="calc(this)">0</button>
+                <button type="button" onclick="calc(this)">.</button>
+                <button type="button" onclick="allClear()">AC</button>
+                <button type="button" onclick="calc(this)">=</button>
+            </div>
+            <span class="clearfix"></span>
+        </div>
+    </section>
+<!-- 
+    <aside>
+        aside
+    </aside> -->
+
+    <footer>
+        <div>
+            <div>Choi Ju Young</div>
+            <div>
+                <p>e-mail : yesutis1@naver.com</p>
+            </div>
+            <a href="/home/home.html">hompage : yesutis1.dothome.co.kr/home/home.html</a>
+        </div>
+    </footer>
+
+    <script src="js/calc.js"></script>
+</body>
+</html>

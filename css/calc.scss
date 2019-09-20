@@ -1,0 +1,29 @@
+section{
+    div{
+        div{
+           &.buttonbs{
+            width:400px; border-radius: 20px;
+            padding: 20px 0 20px 0;
+            margin-left: auto; margin-right: auto;
+            text-align: center; background-color: rgb(188, 241, 188);
+           } 
+           div{
+               &.output{
+                background-color: #ddd; border-radius: 20px;
+                width: 360px; padding: 40px; text-align: center;
+                margin: 0 auto 10px auto; color: black; font-size: 25px;
+                
+               }
+           }
+           button{
+                width: 85px; height: 80px; font-size: 25px;
+                background-color: lightcyan; cursor: pointer;
+                color: #333; border: none; box-sizing: border-box;
+                margin: 8px 3px 0 3px; border-radius: 15px;
+                &:hover{
+                    background-color: lightseagreen; color: white;
+                }
+           }
+        }
+    }
+}

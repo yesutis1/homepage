@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{ padding: 20px; border: 3px solid green;}
+        div{ padding: 20px; border: 2px solid red; background-color:  lightcoral}
+        p{ padding: 20px; border: 2px solid blue; background-color: lightcyan}
+    </style>
+</head>
+<body>
+    body입니다.
+    <div id="myDiv"> div 입니다. </div>
+    <script>
+        var node = document.createElement('p');
+        // p라는 엘리먼트를 생성
+        var textnode = document.createTextNode("한국 p 입니다.");
+        // "한국이라는 내용의 텍스트를 생성"
+        node.appendChild(textnode);
+        // textnode를 엘리먼트의 차일드로 설정
+        document.getElementById("myDiv").appendChild(node);
+        // myDiv라는 id를 가진 엘리먼트에 node를 차일드로 넣는다
+    </script>
+</body>
+</html>
